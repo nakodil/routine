@@ -1,26 +1,38 @@
 # routine
 ---
 
-## Развернуть репозиторий локально
+## Разворачиваем репозиторий локально
+Инициализируем локальный репозиторий
 ```bash
-
+git init
+```
+Подключаем удаленный репозиторий к локальному
+```bash
+git remote add origin https://github.com/my_user/my_project.git
+```
+Копируем содержимое удаленного репозитория в локальный
+```bash
+git pull origin main
 ```
 ---
 ## Построить диаграмму классов
+устанавливаем модуль
 ```bash
 pip install pylint
 ```
+Создаем файлы .dot (classes.dot, packages.dot) для папки
 ```bash
 pyreverse -o dot my_dir_name/
 ```
+Просматриваем .dot файлы
 https://dreampuf.github.io/GraphvizOnline/
 ---
 ## Собрать дистрибутив
-устанавливаем модуль
+Устанавливаем модуль
 ```bash
 pip install pyinstaller
 ```
-создаем файл .spec, папки build и dist создаются автоматически
+Создаем файл .spec, папки build и dist создаются автоматически
 ```bash
 pyinstaller -makespec --onefile --windowed my_file_name.py
 ```
