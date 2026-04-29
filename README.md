@@ -66,7 +66,44 @@ pyinstaller my_file_name.spec
 ```
 
 ---
-### Ruff
+## Git
+* .gitignore
+```python
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Arcade / Multimedia
+.arcade_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Linter
+ruff.toml
+.ruff_cache/
+
+# Pyinstaller
+build/
+dist/
+
+# Misc
+*.dot
+```
+
+---
+## Ruff
 * ruff.toml
 ```python
 [lint]
