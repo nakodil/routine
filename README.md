@@ -15,7 +15,7 @@ git remote add origin https://github.com/my_user/my_project.git
 git pull origin main
 ```
 ---
-## Построить диаграмму классов
+## Строим диаграмму классов
 Устанавливаем модуль
 ```bash
 pip install pylint
