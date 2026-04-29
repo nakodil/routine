@@ -97,6 +97,7 @@ ruff.toml
 # Pyinstaller
 build/
 dist/
+*.spec
 
 # Misc
 *.dot
