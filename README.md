@@ -1,6 +1,6 @@
 # routine
----
 
+---
 ## Разворачиваем репозиторий локально
 Инициализируем локальный репозиторий
 ```bash
@@ -14,6 +14,7 @@ git remote add origin https://github.com/my_user/my_project.git
 ```bash
 git pull origin main
 ```
+
 ---
 ## Строим диаграмму классов
 Устанавливаем модуль
@@ -24,10 +25,11 @@ pip install pylint
 ```bash
 pyreverse -o dot my_dir_name/
 ```
-Просматриваем .dot файлы
+Просматриваем .dot файлы на сайте
 https://dreampuf.github.io/GraphvizOnline/
+
 ---
-## Собрать дистрибутив
+## Собираем дистрибутив
 Устанавливаем модуль
 ```bash
 pip install pyinstaller
