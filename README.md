@@ -52,3 +52,23 @@ icon='assets/img/icon.ico',
 ```bash
 pyinstaller my_file_name.spec
 ```
+
+---
+### ruff.toml
+```python
+[lint]
+select = ["ALL", "E501"]
+ignore = [
+    "FBT001",
+    "FBT002",
+    "FBT003",
+    "RUF001",
+    "RUF002",
+    "RUF003",
+    "T201",
+    "PERF402",
+    "S311",
+    "S605",
+    "S607",
+]
+```
