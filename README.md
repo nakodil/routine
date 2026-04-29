@@ -50,5 +50,5 @@ icon='assets/img/icon.ico',
 ```
 Собираем .exe файл
 ```bash
-pyinstaller main.spec
+pyinstaller my_file_name.spec
 ```
