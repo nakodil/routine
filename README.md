@@ -2,7 +2,7 @@
 
 ---
 ## Подключаем git к VSCode
-Устанавливаем с сайта https://git-scm.com/install/
+Устанавливаем с сайта https://git-scm.com/install/  
 Конфигурируем имя учетной запсиси (как на гитхабе)
 ```bash
 git config --global user.name "Your Name"
