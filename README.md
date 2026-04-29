@@ -1,8 +1,21 @@
 # routine
 
 ---
+## Подключаем git к VSCode
+Устанавливаем с сайта https://git-scm.com/install/
+Конфигурируем имя учетной запсиси (как на гитхабе)
+```bash
+git config --global user.name "Your Name"
+```
+Конфигурируем адрес почты (как на гитхабе)
+```bash
+git config --global user.email "your.email@example.com"
+```
+В VSCode пользуемся вкладкой Source Control (ctrl + shift + G)
+
+---
 ## Разворачиваем репозиторий локально
-Инициализируем локальный репозиторий
+Инициализируем локальный репозиторий (локальная папка должна быть пустой!)
 ```bash
 git init
 ```
