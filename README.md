@@ -19,6 +19,3 @@ pip install pylint
 pyreverse -o dot my_dir_name/
 ```
 https://dreampuf.github.io/GraphvizOnline/
-* [Language Name] (например, Python 3.10)
-* [Library/Framework] (например, FastAPI, React)
-* [Database] (например, SQLite)
