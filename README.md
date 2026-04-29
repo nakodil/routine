@@ -38,8 +38,7 @@ pip install pylint
 ```bash
 pyreverse -o dot my_dir_name/
 ```
-* Просматриваем .dot файлы на сайте  
-https://dreampuf.github.io/GraphvizOnline/
+* Просматриваем .dot файлы на сайте https://dreampuf.github.io/GraphvizOnline/
 
 ---
 ## Собираем дистрибутив
