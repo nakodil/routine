@@ -14,6 +14,8 @@
 ## Построить диаграмму классов
 ```bash
 pip install pylint
+```
+```bash
 pyreverse -o dot my_dir_name/
 ```
 https://dreampuf.github.io/GraphvizOnline/
