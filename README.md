@@ -119,7 +119,7 @@ dist/
 * ruff.toml
 ```python
 [lint]
-select = ["ALL", "E501"]
+select = ["ALL"]
 ignore = [
     "FBT001",
     "FBT002",
